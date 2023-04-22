@@ -1706,16 +1706,6 @@ if (reversed == null) { reversed = false; }
 
 	this.timeline.addTween(cjs.Tween.get(this.yay_mc).wait(1));
 
-	// count
-	this.showscore = new cjs.Text("", "bold 55px 'Arial Black'");
-	this.showscore.name = "showscore";
-	this.showscore.lineHeight = 80;
-	this.showscore.lineWidth = 82;
-	this.showscore.parent = this;
-	this.showscore.setTransform(852.9,257.1);
-
-	this.timeline.addTween(cjs.Tween.get(this.showscore).wait(1));
-
 	// button_instruction
 	this.hint_btn = new lib.hint_btn();
 	this.hint_btn.name = "hint_btn";
@@ -1730,6 +1720,16 @@ if (reversed == null) { reversed = false; }
 	this.instruction_mc.setTransform(959,466);
 
 	this.timeline.addTween(cjs.Tween.get(this.instruction_mc).wait(1));
+
+	// count
+	this.showscore = new cjs.Text("", "bold 55px 'Arial Black'");
+	this.showscore.name = "showscore";
+	this.showscore.lineHeight = 80;
+	this.showscore.lineWidth = 82;
+	this.showscore.parent = this;
+	this.showscore.setTransform(852.9,257.1);
+
+	this.timeline.addTween(cjs.Tween.get(this.showscore).wait(1));
 
 	// button_stop
 	this.stop_btn = new lib.stop_btn();
@@ -1949,14 +1949,14 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Yujin_Song_Minigame_atlas_1.png?1682138527333", id:"Yujin_Song_Minigame_atlas_1"},
-		{src:"images/Yujin_Song_Minigame_atlas_2.png?1682138527333", id:"Yujin_Song_Minigame_atlas_2"},
-		{src:"images/Yujin_Song_Minigame_atlas_3.png?1682138527333", id:"Yujin_Song_Minigame_atlas_3"},
-		{src:"sounds/meow.mp3?1682138527491", id:"meow"},
-		{src:"sounds/magic.mp3?1682138527491", id:"magic"},
-		{src:"sounds/song2.mp3?1682138527491", id:"song2"},
-		{src:"sounds/click.mp3?1682138527491", id:"click"},
-		{src:"sounds/yummy.mp3?1682138527491", id:"yummy"}
+		{src:"images/Yujin_Song_Minigame_atlas_1.png?1682139370223", id:"Yujin_Song_Minigame_atlas_1"},
+		{src:"images/Yujin_Song_Minigame_atlas_2.png?1682139370223", id:"Yujin_Song_Minigame_atlas_2"},
+		{src:"images/Yujin_Song_Minigame_atlas_3.png?1682139370224", id:"Yujin_Song_Minigame_atlas_3"},
+		{src:"sounds/meow.mp3?1682139370410", id:"meow"},
+		{src:"sounds/magic.mp3?1682139370410", id:"magic"},
+		{src:"sounds/song2.mp3?1682139370410", id:"song2"},
+		{src:"sounds/click.mp3?1682139370410", id:"click"},
+		{src:"sounds/yummy.mp3?1682139370410", id:"yummy"}
 	],
 	preloads: []
 };
